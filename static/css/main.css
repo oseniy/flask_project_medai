@@ -1,5 +1,11 @@
 /* border: 5px solid red; */
 
+body {
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../imgs/bckgrnd2.png");
+    background-size:contain;
+}
+
 @media (max-width: 768px) {
     body {
         width: 100%;
