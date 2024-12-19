@@ -814,6 +814,17 @@ p {
     .textcont {
         margin: 10vh;
     }
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        .form-container {
+            width: 100%;
+            padding: 4vh 0;
+        }
+        .textcont {
+            margin: 0 0 5vh 0;
+        }
+    }
 }
 
 .footer {
