@@ -785,6 +785,37 @@ p {
     }
 }
 
+.conpointextra {
+    margin-bottom: 30vh;
+    display: flex;
+    .form-container {
+    border: 5px solid #5D5D5D;
+    border-radius: 5vh;
+    padding: 8vh 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        * {
+            width: 100%;
+        }
+        p{
+            text-align: center;
+        }
+        form {
+            padding: 0 10vh;
+        }
+        input {
+            margin-bottom: 5vh;
+            padding: 1vh;
+            border-radius: 1vh;
+        }
+    }
+    .textcont {
+        margin: 10vh;
+    }
+}
+
 .footer {
     height: 60vh;
     background-color: #5D5D5D;
